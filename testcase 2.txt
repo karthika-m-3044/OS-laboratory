@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+    printf("Before Exit\n");
+    exit(0);
+    printf("After Exit\n");
+}
+
+Output
+Before Exit
